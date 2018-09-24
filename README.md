@@ -11,6 +11,11 @@ Following are some requirements to get started with NPM Packaging:
 
 ## Development Environment
 
+1. SIGN UP
+
+To manage and publish you package/module you need to sign up at (Nodejs Site)[https://www.npmjs.com].
+
+
 ## Creating A Package
 
 ## Making Test
