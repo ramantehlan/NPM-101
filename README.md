@@ -11,14 +11,48 @@ Following are some requirements to get started with NPM Packaging:
 
 ## Development Environment
 
-1. SIGN UP
+1. **SIGN UP**
 
-	To manage and publish you package/module you need to sign up at (Nodejs Site)[https://www.npmjs.com].
+	To manage and publish you package/module you need to sign up at [Nodejs Site](https://www.npmjs.com).
 
-2. Install Nodejs and NPM. 
-3. Install Git.
+2. **Install Nodejs and NPM** 
+	
+	For Debian-Based Distribution.
+```bash
+	$ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+	$ sudo apt-get install -y nodejs
+```
+
+	You can install Nodejs and NPM for other GNU/Linux distributions from the [Nodejs Download page](https://nodejs.org/en/download/package-manager/).
+
+
+3. **Install Git**
+
+	For Debian-Based Distribution.
+```bash
+	$ sudo apt install git-all
+```
+
+	You can install git for other GNU/Linux distributions from the [Git Download page](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+**OR**
+
+You can also use `Environment.sh` to setup this, but it supports following dependency-resolution tools only:
+
+- apt
+- emerge
+- pacman 
+- yum/rpm
+- zypp
+
+```bash
+	$ chmod +x ./Environment.sh
+	$ ./Environment.sh
+```
 
 ## Creating A Package
+
+
 
 ## Making Test
 
@@ -26,13 +60,13 @@ Following are some requirements to get started with NPM Packaging:
 
 Author 
 
-- (Raman Tehlan)[https://ramantehlan.github.io]
+- [Raman Tehlan](https://ramantehlan.github.io)
 
 ## License
 
 MIT License
 
-Copyright (c) 2018 Raman Tehlan
+Copyright (c) 2018 [Raman Tehlan](https://ramantehlan.github.io)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
