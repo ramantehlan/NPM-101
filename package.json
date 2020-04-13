@@ -2,8 +2,8 @@
   "name": "@ramantehlan/ts-packaging-101",
   "version": "1.0.9",
   "description": "A repository to help you understand NPM packaging with TypeScript",
-  "main": "pkg/index.js",
-  "types": "pkg/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/ramantehlan/ts-packaging-101.git"
   },
-  "files": ["lib/**"],
+  "files": ["dist/**"],
   "keywords": [
     "npm 101"
   ],
